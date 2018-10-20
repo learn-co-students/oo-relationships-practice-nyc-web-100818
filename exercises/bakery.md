@@ -17,7 +17,7 @@ Write out the relationships using has_many, belongs_to and has_many_through. Cre
   - should return an array of desserts the bakery makes
 - #average_calories
   - should return a number totaling the average number of calories for the desserts sold at this bakery
-- .all
+- .all - DONE
   - should return an array of all bakeries
 - #shopping_list
   - should return a string of names for ingredients for the bakery
@@ -29,7 +29,7 @@ Write out the relationships using has_many, belongs_to and has_many_through. Cre
     - should return the bakery object for the dessert
   - #calories
     - should return a number totaling all the calories for all the ingredients included in that dessert
-  - .all
+  - .all - DONE
     - should return an array of all desserts
 
 #### Ingredients
@@ -37,7 +37,7 @@ Write out the relationships using has_many, belongs_to and has_many_through. Cre
     - should return a dessert object for that ingredient
   - #bakery
     - should return the bakery object for the bakery that uses that ingredient
-  - .all
+  - .all - DONE
     - should return an array of all ingredients
   - .find_all_by_name(ingredient)
     - should take a string argument return an array of all ingredients that include that string in their name
